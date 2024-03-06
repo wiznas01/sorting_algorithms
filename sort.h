@@ -54,5 +54,7 @@ void merge_sort_recursive(int *array, size_t start, size_t end);
 void merge(int *array, size_t start, size_t middle, size_t end);
 void heapify(int *array, size_t size, size_t index, size_t total_size);
 void swap(int *a, int *b);
+int get_max(int *array, size_t size);
+void counting_sort_radix(int *array, size_t size, int exp);
 
 #endif
