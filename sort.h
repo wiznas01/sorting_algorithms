@@ -52,5 +52,7 @@ void sort_deck(deck_node_t **deck);
 void swap_nodes(listint_t *node1, listint_t *node2);
 void merge_sort_recursive(int *array, size_t start, size_t end);
 void merge(int *array, size_t start, size_t middle, size_t end);
+void heapify(int *array, size_t size, size_t index, size_t total_size);
+void swap(int *a, int *b);
 
 #endif
