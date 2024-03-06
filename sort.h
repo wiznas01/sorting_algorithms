@@ -58,5 +58,8 @@ int get_max(int *array, size_t size);
 void counting_sort_radix(int *array, size_t size, int exp);
 void bitonic_merge(int *array, size_t start, size_t size, int dir);
 void bitonic_sort_recursive(int *array, size_t start, size_t size, int dir);
+void quick_sort_hoare(int *array, size_t size);
+void quick_sort_hoare_recurse(int *array, size_t low, size_t high, size_t size);
+size_t hoare_partition(int *array, size_t low, size_t high, size_t size);
 
 #endif
